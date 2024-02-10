@@ -24,12 +24,12 @@ or if you want to use it as a bin command
 
 go >= 1.17
 ```shell
-go install github.com/joho/godotenv/cmd/godotenv@latest
+go install github.com/chocokacang/godotenv/cmd/godotenv@latest
 ```
 
 go < 1.17
 ```shell
-go get github.com/joho/godotenv/cmd/godotenv
+go get github.com/chocokacang/godotenv/cmd/godotenv
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ import (
     "log"
     "os"
 
-    "github.com/joho/godotenv"
+    "github.com/chocokacang/godotenv"
 )
 
 func main() {
@@ -69,7 +69,7 @@ func main() {
 If you're even lazier than that, you can just take advantage of the autoload package which will read in `.env` on import
 
 ```go
-import _ "github.com/joho/godotenv/autoload"
+import _ "github.com/chocokacang/godotenv/autoload"
 ```
 
 While `.env` in the project root is the default, you don't have to be constrained, both examples below are 100% legit
